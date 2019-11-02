@@ -2,4 +2,5 @@
 credentials.json
 /scraps/*
 /dist/*
+*.csv
 

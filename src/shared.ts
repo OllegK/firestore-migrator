@@ -116,6 +116,9 @@ class NumberFH extends FieldHandler {
         }
         return this.encodeFn(key, JSON.parse(val), doc);
     }    
+    public decode = (key: string, val, doc) => {
+        return this.decodeFn(key, val, doc);
+    };
 }
 
 class ReferenceFH extends FieldHandler {

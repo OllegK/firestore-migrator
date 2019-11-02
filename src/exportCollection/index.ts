@@ -78,7 +78,7 @@ function getCollection(path): Promise<any> {
         // try {
 
             if (snaps.size === 0) {
-                throw `No ducuments in collection: ${path}`;
+                throw `No documents in collection: ${path}`;
             };
 
             for (let snap of snaps.docs) {
