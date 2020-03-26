@@ -1,5 +1,11 @@
-npm run migrate export --verbose email_old_ext_2019_11_30.csv hcdbfckhdcpepllecbkaaojfgipnpbpb
+#!/bin/bash
 
-npm run migrate export --verbose email_new_ext_2019_11_30.csv clibiflfecckdjnjcgcgjdknmbgceail
+yarn run migrate export --verbose email_old_ext_$(date +%Y%m%d).csv hcdbfckhdcpepllecbkaaojfgipnpbpb
 
-#npm run migrate export --verbose extensions2019_08_17.csv extensions
+yarn run migrate export --verbose email_new_ext_$(date +%Y%m%d).csv clibiflfecckdjnjcgcgjdknmbgceail
+
+yarn run migrate export --verbose email_new_ext2_$(date +%Y%m%d).csv lbdeppidkojefggdnbaggonnfghihnfl
+
+yarn run migrate export --verbose email_new_ext3_$(date +%Y%m%d).csv afgobdehdiaoeelfmoconopdjclljgfh
+
+# npm run migrate export --verbose extensions2019_12_28.csv extensions
