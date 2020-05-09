@@ -8,4 +8,7 @@ yarn run migrate export --verbose email_new_ext2_$(date +%Y%m%d).csv lbdeppidkoj
 
 yarn run migrate export --verbose email_new_ext3_$(date +%Y%m%d).csv afgobdehdiaoeelfmoconopdjclljgfh
 
+yarn run migrate export --verbose email_linkedin_ext_$(date +%Y%m%d).csv pkidkfoiffnoaciohogaknnjecnfmlca
+
+
 # npm run migrate export --verbose extensions2019_12_28.csv extensions
